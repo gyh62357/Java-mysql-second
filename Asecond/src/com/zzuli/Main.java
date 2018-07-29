@@ -33,21 +33,9 @@ public class Main {
 
         user.setId(id);//每次测试运行都要改变该数字
         
-        System.out.print("请输入姓名：");
+        user.setName("name");
         
-        Scanner input_name = new Scanner(System.in);
-        
-        String name = input_name.next();
-        
-        user.setName(name);
-        
-        System.out.print("请输入密码：");
-        
-        Scanner input_password = new Scanner(System.in);
-        
-        String password = input_password.next();
-
-        user.setPassword(password);
+        user.setPassword("password");
         
         System.out.print("邮箱：");
         
